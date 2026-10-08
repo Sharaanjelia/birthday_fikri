@@ -1,0 +1,7 @@
+{
+  "name": "Fikri's Journey to the Summit",
+  "description": "An interactive cinematic birthday journey for Fikri Rahmat celebrating growth, memories, and mountain summits.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

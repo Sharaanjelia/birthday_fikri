@@ -1,0 +1,130 @@
+import { ColorOption, StyleOption, FontOption } from '../types';
+
+export const COLOR_OPTIONS: ColorOption[] = [
+  {
+    id: 'cream',
+    name: 'Warm Cream',
+    sub: 'Vanilla & Gold Leaf',
+    frosting: '#f7eee3',
+    shadow: '#d8c4ae',
+    drip: '#fbf7f0',
+    accent: '#d4af37',
+    textContrast: '#2d2218',
+    swatch: 'bg-[#f7eee3] border-amber-300',
+  },
+  {
+    id: 'forest',
+    name: 'Forest Green',
+    sub: 'Alpine Pine & Moss',
+    frosting: '#1c3a2b',
+    shadow: '#0f241a',
+    drip: '#2a533f',
+    accent: '#e2ba62',
+    textContrast: '#f3efe6',
+    swatch: 'bg-[#1c3a2b] border-emerald-400',
+  },
+  {
+    id: 'chocolate',
+    name: 'Dark Cocoa',
+    sub: 'Velvet Truffle',
+    frosting: '#382218',
+    shadow: '#22140e',
+    drip: '#4e3022',
+    accent: '#e6c280',
+    textContrast: '#f8ede3',
+    swatch: 'bg-[#382218] border-amber-600',
+  },
+  {
+    id: 'sky',
+    name: 'Alpine Sky',
+    sub: 'Glacial Morning Blue',
+    frosting: '#3d6380',
+    shadow: '#233d52',
+    drip: '#5884a6',
+    accent: '#f2f8fc',
+    textContrast: '#ffffff',
+    swatch: 'bg-[#3d6380] border-sky-300',
+  },
+  {
+    id: 'lavender',
+    name: 'Summit Twilight',
+    sub: 'Mountain Dusk Violet',
+    frosting: '#534368',
+    shadow: '#362a45',
+    drip: '#725c8f',
+    accent: '#f5e88f',
+    textContrast: '#faf5ff',
+    swatch: 'bg-[#534368] border-purple-300',
+  },
+  {
+    id: 'berry',
+    name: 'Wild Berry',
+    sub: 'Blackberry & Crimson',
+    frosting: '#5c1e30',
+    shadow: '#3b101c',
+    drip: '#7a2d44',
+    accent: '#f7d399',
+    textContrast: '#fff1f4',
+    swatch: 'bg-[#5c1e30] border-rose-400',
+  },
+];
+
+export const STYLE_OPTIONS: StyleOption[] = [
+  {
+    id: 'classic',
+    name: 'CLASSIC',
+    desc: 'Clean & minimalist aesthetic with gold pearl trim and subtle piping.',
+    iconName: 'Sparkles',
+  },
+  {
+    id: 'forest',
+    name: 'FOREST',
+    desc: 'Handcrafted mini pine trees, fir branches, moss crumbles & wild berries.',
+    iconName: 'Trees',
+  },
+  {
+    id: 'mountain',
+    name: 'MOUNTAIN',
+    desc: 'Snow-capped peak topper, expedition compass badge, and camping warmth.',
+    iconName: 'Mountain',
+  },
+];
+
+export const FONT_OPTIONS: FontOption[] = [
+  {
+    id: 'classic',
+    name: 'Classic Serif',
+    cssClass: 'font-classic',
+    sample: 'Happy Birthday',
+  },
+  {
+    id: 'elegant',
+    name: 'Elegant Script',
+    cssClass: 'font-elegant',
+    sample: 'Happy Birthday',
+  },
+  {
+    id: 'handwritten',
+    name: 'Warm Handwritten',
+    cssClass: 'font-handwritten',
+    sample: 'Happy Birthday',
+  },
+  {
+    id: 'playful',
+    name: 'Playful Rounded',
+    cssClass: 'font-playful',
+    sample: 'Happy Birthday',
+  },
+  {
+    id: 'bold',
+    name: 'Bold Adventure',
+    cssClass: 'font-boldcake',
+    sample: 'HAPPY BIRTHDAY',
+  },
+  {
+    id: 'mountain',
+    name: 'Mountain Summit',
+    cssClass: 'font-mountain',
+    sample: 'HAPPY BIRTHDAY',
+  },
+];
