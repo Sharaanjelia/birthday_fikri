@@ -114,7 +114,7 @@ export const NavigationHeader: React.FC<NavigationHeaderProps> = ({
             </div>
             <div>
               <div className="text-[11px] uppercase tracking-widest text-[#a89b88] font-bold">
-                FIKRI RAHMAT
+                FIKRI RAHMAN
               </div>
               <div className="text-xs text-[#e5ded2] font-semibold flex items-center gap-1.5">
                 <span>{info.stage}</span>

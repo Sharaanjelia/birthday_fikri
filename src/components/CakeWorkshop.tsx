@@ -379,7 +379,7 @@ export const CakeWorkshop: React.FC<CakeWorkshopProps> = ({
               YOUR CAKE IS READY.
             </h1>
             <p className="text-sm sm:text-base text-[#b7c7bc] font-light max-w-xl mx-auto">
-              Seluruh racikan kue puncak telah dipersiapkan khusus untuk Fikri Rahmat.
+              Seluruh racikan kue puncak telah dipersiapkan khusus untuk Fikri Rahman.
             </p>
           </div>
 

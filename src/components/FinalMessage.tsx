@@ -25,7 +25,7 @@ export const FinalMessage: React.FC<FinalMessageProps> = ({
   const [copied, setCopied] = useState<boolean>(false);
 
   const handleCopyCard = () => {
-    const textToCopy = `🏔️ A Journey to the Summit — For Fikri Rahmat 🏔️
+    const textToCopy = `🏔️ A Journey to the Summit — For Fikri Rahman 🏔️
 "Satu hal yang aku harap kamu ingat. Kamu sudah sampai sejauh ini. Jadi kalau suatu hari perjalananmu terasa berat lagi, jangan lupa sama semua hal yang sudah berhasil kamu lewati.
 
 Semoga kamu terus menemukan hal-hal yang bikin kamu bahagia.
@@ -37,7 +37,7 @@ Tetap jadi Fikri yang terus belajar, terus tumbuh, dan terus jalan.
 Semangat terus ya, Fikri. 🏔️
 I'm genuinely happy to see how far you've come.
 
-Happy Birthday, Fikri Rahmat! Keep climbing. Keep growing. Keep going."`;
+Happy Birthday, Fikri Rahman! Keep climbing. Keep growing. Keep going."`;
 
     navigator.clipboard.writeText(textToCopy);
     setCopied(true);
@@ -129,7 +129,7 @@ Happy Birthday, Fikri Rahmat! Keep climbing. Keep growing. Keep going."`;
               THE JOURNEY CONTINUES...
             </h1>
             <p className="font-serif italic text-2xl sm:text-3xl text-amber-300">
-              Happy Birthday, Fikri Rahmat.
+              Happy Birthday, Fikri Rahman.
             </p>
           </div>
 

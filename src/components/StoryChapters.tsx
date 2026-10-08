@@ -90,7 +90,7 @@ export const StoryChapters: React.FC<StoryChaptersProps> = ({
           {/* Main Hero Header */}
           <div className="space-y-3">
             <h2 className="text-xs sm:text-sm font-mono tracking-[0.3em] uppercase text-[#a99c89]">
-              FOR FIKRI RAHMAT
+              FOR FIKRI RAHMAN
             </h2>
             <h1 className="text-3xl sm:text-5xl md:text-6xl font-mountain tracking-wide text-[#f5ede0] leading-tight drop-shadow-md">
               A Little Journey for Someone <br className="hidden sm:inline" />
@@ -184,7 +184,7 @@ export const StoryChapters: React.FC<StoryChaptersProps> = ({
                 {userPhoto ? (
                   <img
                     src={userPhoto}
-                    alt="Fikri Rahmat di Puncak Gunung"
+                    alt="Fikri Rahman di Puncak Gunung"
                     referrerPolicy="no-referrer"
                     className="w-full h-full object-cover"
                   />
